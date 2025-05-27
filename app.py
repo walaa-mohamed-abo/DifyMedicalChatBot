@@ -6,7 +6,7 @@ dify_api_key = "app-AauTKEyL4NTrygN8se819xyC"
 url="https://api.dify.ai/v1/chat-messages" 
 
 st.title("⚕️ MedicalChatBot")
-st.markdown("مساعدك الطبي المدعوم بالذكاء الاصطناعي.")
+st.markdown("مساعدك الطبي المدعوم بالذكاء الاصطناعي")
 
 if "conversation_id" not in st.session_state:
      st.session_state.conversation_id = ""
